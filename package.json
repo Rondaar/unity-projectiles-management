@@ -1,0 +1,15 @@
+{
+    "name": "com.pistachiodevelopment.projectiles",
+    "version": "1.0.0",
+    "displayName": "Projectiles",
+    "description": "This package simplifies projectile management through an expandable, interface-driven structure, making it a versatile foundation for customizing projectile behavior in your game.",
+    "unity": "2022.3",
+    "dependencies": {
+    },
+    "keywords": ["projectiles", "projectile system", "interfaces"],
+    "author": {
+        "name": "Maciek Sozanski",
+        "email": "maciek.sozanski@gmail.com",
+        "url": "https://rondaar.github.io/"
+    }
+}

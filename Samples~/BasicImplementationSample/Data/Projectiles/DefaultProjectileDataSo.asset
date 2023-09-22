@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7943954ffa8a73144b3f2f2d0fc55681, type: 3}
+  m_Name: DefaultProjectileDataSo
+  m_EditorClassIdentifier: 
+  <Speed>k__BackingField: 80
+  <ExpireTime>k__BackingField: 0.5
+  <ExpireOnHit>k__BackingField: 1
+  <HitTargetEffectFactories>k__BackingField:
+  - {fileID: 11400000, guid: 84a9e9aeef97f0b418988b1671f29203, type: 2}
+  - {fileID: 11400000, guid: 61f95367fa93ef847bea9cbd14614324, type: 2}
+  - {fileID: 11400000, guid: a03af47b497ce9c43b4ba5fda149b6cd, type: 2}
