@@ -11,5 +11,12 @@
         "name": "Maciek Sozanski",
         "email": "maciek.sozanski@gmail.com",
         "url": "https://rondaar.github.io/"
-    }
+    },
+    "samples": [
+        {
+            "displayName": "Basic Implementation Sample",
+            "description": "Contains sample scene where you can shoot a projectile with 3 basic effects",
+            "path": "Samples~/BasicImplementationSample"
+        }
+    ]
 }
