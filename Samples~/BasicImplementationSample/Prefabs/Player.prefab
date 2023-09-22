@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2318448713016140696}
   - component: {fileID: 2206592332215305334}
   - component: {fileID: 4280505717344704658}
-  - component: {fileID: 3223610610281286190}
   - component: {fileID: 3654717399998279497}
+  - component: {fileID: 3960310311232623124}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -107,18 +107,6 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3223610610281286190
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6639913148876356500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a24050c55bed0214783bf05ea0f4c0c8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &3654717399998279497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -136,3 +124,15 @@ MonoBehaviour:
     type: 3}
   projectilePresentationPrefabGameObject: {fileID: 4381175607383566500, guid: 815085dec03a1164293c24528e9e6e20,
     type: 3}
+--- !u!114 &3960310311232623124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6639913148876356500}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef38667c137a523469ebbf04c9f0bfcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
