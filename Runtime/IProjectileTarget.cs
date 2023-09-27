@@ -2,8 +2,7 @@ using UnityEngine;
 
 namespace Projectiles
 {
-    public interface IProjectileTarget
+    public interface IProjectileTarget : IGameObject
     {
-        GameObject GameObject { get; }
     }
 }
