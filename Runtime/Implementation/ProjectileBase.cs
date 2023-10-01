@@ -7,7 +7,7 @@ namespace Projectiles.Implementation
     [RequireComponent(typeof(Rigidbody))]
     public abstract class ProjectileBase : MonoBehaviour, IProjectile
     {
-        private readonly HashSet<IProjectileTarget> hitTargets = new();
+        private readonly HashSet<IProjectileTarget> hitTargets = new HashSet<IProjectileTarget>();
         private IProjectileEmitter sourceEmitter;
         private bool expired;
         private float lastLaunchTime;
@@ -16,7 +16,7 @@ namespace Projectiles.Implementation
         public abstract float Speed { get; }
         public abstract float ExpireTime { get; }
         public abstract bool ExpireOnHit { get; }
-        public List<IProjectileTargetEffect> ProjectileTargetHitEffects { get; } = new();
+        public List<IProjectileTargetEffect> ProjectileTargetHitEffects { get; } = new List<IProjectileTargetEffect>();
         private float TimeSinceLaunch => Time.time - lastLaunchTime;
         
         public event Action<IProjectile> OnLaunchE;
