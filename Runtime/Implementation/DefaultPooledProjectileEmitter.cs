@@ -8,10 +8,10 @@ namespace Projectiles.Implementation
     [Serializable]
     public class DefaultPooledProjectileEmitter : IProjectileEmitter
     {
-        private readonly Dictionary<IProjectile, ObjectPool<IProjectile>> projectilePrefabToPoolLut = new();
-        private readonly Dictionary<IProjectile, ObjectPool<IProjectile>> projectileInstanceToPoolLut = new();
-        private readonly Dictionary<IProjectilePresentation, ObjectPool<IProjectilePresentation>> projectilePresentationPrefabToPoolLut = new();
-        private readonly Dictionary<IProjectilePresentation, ObjectPool<IProjectilePresentation>> projectilePresentationInstanceToPoolLut = new();
+        private readonly Dictionary<IProjectile, ObjectPool<IProjectile>> projectilePrefabToPoolLut = new Dictionary<IProjectile, ObjectPool<IProjectile>>();
+        private readonly Dictionary<IProjectile, ObjectPool<IProjectile>> projectileInstanceToPoolLut = new Dictionary<IProjectile, ObjectPool<IProjectile>>();
+        private readonly Dictionary<IProjectilePresentation, ObjectPool<IProjectilePresentation>> projectilePresentationPrefabToPoolLut = new Dictionary<IProjectilePresentation, ObjectPool<IProjectilePresentation>>();
+        private readonly Dictionary<IProjectilePresentation, ObjectPool<IProjectilePresentation>> projectilePresentationInstanceToPoolLut = new Dictionary<IProjectilePresentation, ObjectPool<IProjectilePresentation>>();
 
         public void EmitProjectile(IProjectile projectilePrefab, IProjectilePresentation projectilePresentationPrefab, Vector3 startPosition, Vector3 direction)
         {
